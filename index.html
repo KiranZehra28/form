@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<style>
+    
+    ::placeholder{
+        color: lightcoral;
+    }
+
+    div{
+        margin: 10px;
+    }
+
+    .area{
+        position: relative;
+        bottom: 210px;
+        left: 2px;
+    }
+</style>
+
+</head>
+<body>
+
+        <form>
+            <div>
+                <label> Name </label>
+                <input type="text" placeholder="Enter Name" required>
+            </div>
+
+            <div>
+                <label> Father Name </label>
+                <input type="text" placeholder="Enter Father Name" required>
+            </div>
+
+            <div>
+                <label> Password </label>
+                <input type="password" required>
+            </div>
+
+            <div>
+                <label> Email </label>
+                <input type="email">
+            </div>
+
+            <div>
+                <label> File </label>
+                <input type="file">
+            </div>
+
+            <div>
+                <label> Student ID </label>
+                <input type="text" value="Student">
+            </div>
+
+            <div>
+                <label> Color Picker</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label> LINK </label>
+                <input type="url">
+            </div>
+
+            <div>
+                <label> Gender </label>
+                <input name='Gender' type="radio" checked> Female </input>
+                <input name='Gender' type="radio"> Male </input>
+            </div>
+
+            <div>
+                <label> Role </label>
+                <input type="checkbox"> Computer </input>
+                <input type="checkbox"> Maths </input>
+                <input type="checkbox"> Science </input>
+            </div>
+
+            <div>
+                <label> Country </label>
+                <select id="Country">
+                    <option> Pakistan </option>
+                    <option> China </option>
+                    <option> India </option>
+                    <option> Dubai </option>
+                </select>
+            </div>
+
+            <div>
+                <label class="area"> Text Area: </label>
+                <textarea cols="40" rows="10"></textarea>
+            </div>
+
+            <div>
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
